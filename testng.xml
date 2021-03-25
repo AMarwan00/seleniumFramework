@@ -1,4 +1,4 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Regression Suite">
 	<parameter name="browser" value="chrome" />
 	<test name="Regression Test" preserve-order="false">
@@ -17,6 +17,7 @@
 			<class name="tests.RegisteredUserCheckoutProductTest" />
 			<class name="tests.SearchProductUsingAutoSuggestTest" />
 			<class name="tests.GuestCheckoutProductFromCartTest" />
+			<class name="UserRegistrationTestWithJavaFaker" />
 		</classes>
 	</test>
 </suite> 
